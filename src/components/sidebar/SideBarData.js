@@ -85,7 +85,7 @@ export const navData = [
     icon: BiWallet,
   },
   {
-    title: "х",
+    title: "профайл",
     toLink: "/profile",
     icon: BiWallet,
   },

@@ -97,45 +97,6 @@ const TimeTable = () => {
         w={{ sm: "50%", md: "100%", lg: "100%" }}
         overflowX={{ sm: "scroll", lg: "hidden" }}
       >
-        <Flex justify="space-between" align="center" w="100%">
-          <Stack
-            direction={{ sm: "column", md: "row" }}
-            spacing={{ sm: "4px", md: "12px" }}
-            align="center"
-            me="12px"
-            my="24px"
-            ml={"20px"}
-            minW={{ sm: "100px", md: "200px" }}
-          >
-            <Select
-              // value={pageSize}
-              // onChange={(e) => setPageSize(Number(e.target.value))}
-              color="#45a735"
-              size="sm"
-              borderRadius="12px"
-              maxW="75px"
-              cursor="pointer"
-            >
-              <option>5</option>
-              <option>10</option>
-              <option>15</option>
-              <option>20</option>
-              <option>25</option>
-            </Select>
-            <Text fontSize="xs" color="#45a735" fontWeight="normal">
-              хуудасны хувиарлалт
-            </Text>
-          </Stack>
-          <Input
-            type="text"
-            placeholder="хайх..."
-            minW="75px"
-            maxW="175px"
-            fontSize="sm"
-            _focus={{ borderColor: "#45a735" }}
-            // onChange={(e) => setGlobalFilter(e.target.value)}
-          />
-        </Flex>
         <Flex p={6} direction="column">
           <Heading mb={4}></Heading>
           <TableContainer>
@@ -150,19 +111,162 @@ const TimeTable = () => {
                   <Th w="10%">3:00PM- 3:40PM</Th>
                   <Th w="10%">3:40PM-5:00PM </Th>
                   <Th w="10%">5:10PM: 6.30PM </Th>
-                  <Th w="10%">action </Th>
                 </Tr>
               </Thead>
               <Tbody>
                 <Tr>
+                  <Td>{TheroSub[0]}</Td>
                   <Td>{PracSub[0]}</Td>
-                  <Td>{TheroSub[0]}</Td>
                   <Td>амралт</Td>
-                  <Td>{TheroSub[0]}</Td>
-                  <Td>{TheroSub[0]}</Td>
+                  <Td>{TheroSub[1]}</Td>
+                  <Td>{PracSub[1]}</Td>
                   <Td>амралт</Td>
-                  <Td>{TheroSub[0]}</Td>
-                  <Td>{TheroSub[0]}</Td>
+                  <Td>{TheroSub[2]}</Td>
+                  <Td>{PracSub[2]}</Td>
+                </Tr>
+              </Tbody>
+              <Thead>
+                <Tr>
+                  <Th w="10%">8:30AM-10:00AM</Th>
+                  <Th w="10%">10:05AM-11:30AM </Th>
+                  <Th w="10%">11:30AM:12.00PM</Th>
+                  <Th w="10%">12.00PM-1:30PM</Th>
+                  <Th w="10%">1:30PM- 3:00PM</Th>
+                  <Th w="10%">3:00PM- 3:40PM</Th>
+                  <Th w="10%">3:40PM-5:00PM </Th>
+                  <Th w="10%">5:10PM: 6.30PM </Th>
+                </Tr>
+              </Thead>
+              <Tbody>
+                <Tr>
+                  <Td>{PracSub[3]}</Td>
+                  <Td>{TheroSub[3]}</Td>
+                  <Td>амралт</Td>
+                  <Td>{PracSub[4]}</Td>
+                  <Td>{TheroSub[4]}</Td>
+                  <Td>амралт</Td>
+                  <Td>{PracSub[5]}</Td>
+                  <Td>{TheroSub[5]}</Td>
+                </Tr>
+              </Tbody>
+              <Thead>
+                <Tr>
+                  <Th w="10%">8:30AM-10:00AM</Th>
+                  <Th w="10%">10:05AM-11:30AM </Th>
+                  <Th w="10%">11:30AM:12.00PM</Th>
+                  <Th w="10%">12.00PM-1:30PM</Th>
+                  <Th w="10%">1:30PM- 3:00PM</Th>
+                  <Th w="10%">3:00PM- 3:40PM</Th>
+                  <Th w="10%">3:40PM-5:00PM </Th>
+                  <Th w="10%">5:10PM: 6.30PM </Th>
+                </Tr>
+              </Thead>
+              <Tbody>
+                <Tr>
+                  <Td>{PracSub[6]}</Td>
+                  <Td>{TheroSub[6]}</Td>
+                  <Td>амралт</Td>
+                  <Td>{TheroSub[7]}</Td>
+                  <Td>{PracSub[7]}</Td>
+                  <Td>амралт</Td>
+                  <Td>{TheroSub[8]}</Td>
+                  <Td>{PracSub[8]}</Td>
+                </Tr>
+              </Tbody>
+              <Thead>
+                <Tr>
+                  <Th w="10%">8:30AM-10:00AM</Th>
+                  <Th w="10%">10:05AM-11:30AM </Th>
+                  <Th w="10%">11:30AM:12.00PM</Th>
+                  <Th w="10%">12.00PM-1:30PM</Th>
+                  <Th w="10%">1:30PM- 3:00PM</Th>
+                  <Th w="10%">3:00PM- 3:40PM</Th>
+                  <Th w="10%">3:40PM-5:00PM </Th>
+                  <Th w="10%">5:10PM: 6.30PM </Th>
+                </Tr>
+              </Thead>
+              <Tbody>
+                <Tr>
+                  <Td>{TheroSub[9]}</Td>
+                  <Td>{PracSub[9]}</Td>
+                  <Td>амралт</Td>
+                  <Td>{PracSub[10]}</Td>
+                  <Td>{TheroSub[10]}</Td>
+                  <Td>амралт</Td>
+                  <Td>{PracSub[11]}</Td>
+                  <Td>{TheroSub[11]}</Td>
+                </Tr>
+              </Tbody>
+              <Thead>
+                <Tr>
+                  <Th w="10%">8:30AM-10:00AM</Th>
+                  <Th w="10%">10:05AM-11:30AM </Th>
+                  <Th w="10%">11:30AM:12.00PM</Th>
+                  <Th w="10%">12.00PM-1:30PM</Th>
+                  <Th w="10%">1:30PM- 3:00PM</Th>
+                  <Th w="10%">3:00PM- 3:40PM</Th>
+                  <Th w="10%">3:40PM-5:00PM </Th>
+                  <Th w="10%">5:10PM: 6.30PM </Th>
+                </Tr>
+              </Thead>
+              <Tbody>
+                <Tr>
+                  <Td>{TheroSub[12]}</Td>
+                  <Td>{PracSub[13]}</Td>
+                  <Td>амралт</Td>
+                  <Td>{PracSub[12]}</Td>
+                  <Td>{TheroSub[13]}</Td>
+                  <Td>амралт</Td>
+                  <Td>{TheroSub[14]}</Td>
+                  <Td>{PracSub[14]}</Td>
+                </Tr>
+              </Tbody>
+              <Thead>
+                <Tr>
+                  <Th w="10%">8:30AM-10:00AM</Th>
+                  <Th w="10%">10:05AM-11:30AM </Th>
+                  <Th w="10%">11:30AM:12.00PM</Th>
+                  <Th w="10%">12.00PM-1:30PM</Th>
+                  <Th w="10%">1:30PM- 3:00PM</Th>
+                  <Th w="10%">3:00PM- 3:40PM</Th>
+                  <Th w="10%">3:40PM-5:00PM </Th>
+                  <Th w="10%">5:10PM: 6.30PM </Th>
+                </Tr>
+              </Thead>
+              <Tbody>
+                <Tr>
+                  <Td>{TheroSub[15]}</Td>
+                  <Td>{PracSub[15]}</Td>
+                  <Td>амралт</Td>
+                  <Td>{TheroSub[16]}</Td>
+                  <Td>{PracSub[16]}</Td>
+                  <Td>амралт</Td>
+                  <Td>{TheroSub[17]}</Td>
+                  <Td>{PracSub[17]}</Td>
+                </Tr>
+              </Tbody>
+              <Thead>
+                <Tr>
+                  <Th w="10%">8:30AM-10:00AM</Th>
+                  <Th w="10%">10:05AM-11:30AM </Th>
+                  <Th w="10%">11:30AM:12.00PM</Th>
+                  <Th w="10%">12.00PM-1:30PM</Th>
+                  <Th w="10%">1:30PM- 3:00PM</Th>
+                  <Th w="10%">3:00PM- 3:40PM</Th>
+                  <Th w="10%">3:40PM-5:00PM </Th>
+                  <Th w="10%">5:10PM: 6.30PM </Th>
+                </Tr>
+              </Thead>
+              <Tbody>
+                <Tr>
+                  <Td>{TheroSub[18]}</Td>
+                  <Td>{PracSub[18]}</Td>
+                  <Td>амралт</Td>
+                  <Td>{TheroSub[19]}</Td>
+                  <Td>{PracSub[19]}</Td>
+                  <Td>амралт</Td>
+                  <Td>{TheroSub[20]}</Td>
+                  <Td>{PracSub[20]}</Td>
                 </Tr>
               </Tbody>
             </Table>
