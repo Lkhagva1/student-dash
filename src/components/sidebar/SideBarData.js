@@ -14,7 +14,7 @@ import {
 export const navData = [
   {
     title: "Хянах самбар",
-    toLink: "dashboard",
+    toLink: "/dashboard",
     icon: FiGrid,
   },
   {
