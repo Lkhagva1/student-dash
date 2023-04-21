@@ -80,7 +80,7 @@ const ProfileInfo = ({ data }) => {
                     fontWeight="bold"
                     me="10px"
                   >
-                    Эцэг нэр:{" "}
+                    Регистер дугаар:{" "}
                   </Text>
                   <Text fontSize="md" color="gray.500" fontWeight="400">
                     {data[0].father_name}
@@ -106,7 +106,7 @@ const ProfileInfo = ({ data }) => {
                     fontWeight="bold"
                     me="10px"
                   >
-                    Эхийн нэр:{" "}
+                    Суралцах хэлбэр:{" "}
                   </Text>
                   <Text fontSize="md" color="gray.500" fontWeight="400">
                     {data[0].mother_name}
@@ -227,7 +227,7 @@ const ProfileInfo = ({ data }) => {
                   fontWeight="bold"
                   me="10px"
                 >
-                  Social Media:{" "}
+                  Олон нийтийн сүлжээ:{" "}
                 </Text>
                 <Flex>
                   <Link
