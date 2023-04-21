@@ -3,7 +3,6 @@ import {
   BiBuildings,
   BiBookReader,
   BiCalendar,
-  BiHotel,
   BiWallet,
   BiChat,
   BiCalendarEvent,
