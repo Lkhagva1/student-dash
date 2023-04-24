@@ -17,12 +17,12 @@ export const navData = [
     icon: FiGrid,
   },
   {
-    title: "хичээл",
+    title: "Хичээл баталгаажуулалт",
     toLink: "/attendance",
     icon: BiFace,
   },
   {
-    title: "цагийн хуваарь",
+    title: "Цагийн хуваарь",
     toLink: "/timetable",
     icon: FiUsers,
   },
@@ -37,7 +37,7 @@ export const navData = [
     icon: BiBuildings,
   },
   {
-    title: "сонгосон хичээлүүд",
+    title: "Сонгосон хичээлүүд",
     toLink: "/subject",
     icon: FiLayers,
   },
@@ -55,12 +55,6 @@ export const navData = [
     title: "Хуанли",
     toLink: "/calendar",
     icon: BiCalendar,
-  },
-
-  {
-    title: "Төлбөр",
-    toLink: "/event",
-    icon: BiCalendarEvent,
   },
   {
     title: "номын сан",
